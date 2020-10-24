@@ -8,9 +8,6 @@ public class BeanShortestPath {
 	List<BeanVertex> stations;
 	List<String> lineNames;
 	
-	/**
-	 * 
-	 */
 	public BeanShortestPath() {
 		super();
 		stations = new ArrayList<>();
@@ -30,11 +27,6 @@ public class BeanShortestPath {
 	}
 	@Override
 	public String toString() {
-//		System.out.println(shortestPath.getStations().get(0).getStationName() + "\t" + shortestPath.getStations().get(0).getLine());
-//		for (int i=0; i<shortestPath.getLineNames().size(); i++) {
-//			System.out.println(shortestPath.getLineNames().get(i));
-//			System.out.println(shortestPath.getStations().get(i+1).getStationName() + "\t" + shortestPath.getStations().get(i+1).getLine());
-//		}
 		String ret = new String();
 		Set<String> lines = new LinkedHashSet<>(lineNames);
 		
@@ -54,6 +46,5 @@ public class BeanShortestPath {
 		ret += " --> " + stations.get(stations.size()-1).getStationName();
 		return ret;
 	}
-	
 	
 }

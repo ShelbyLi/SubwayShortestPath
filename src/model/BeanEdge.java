@@ -5,8 +5,6 @@ public class BeanEdge {
 	String[][] edgeNames;
 	int length;
 	
-	
-	
 	/**
 	 * @param length
 	 */
@@ -29,6 +27,5 @@ public class BeanEdge {
 	public void setEdgeNames(String[][] edgeNames) {
 		this.edgeNames = edgeNames;
 	}
-	
 	
 }

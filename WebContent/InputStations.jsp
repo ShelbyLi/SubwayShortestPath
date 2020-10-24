@@ -36,6 +36,7 @@
 								<div class="card-header card-header-primary">
 									<h4 class="card-title">查询</h4>
 									<p class="card-category">Search</p>
+									<p class="card-category">${hint}</p>
 								</div>
 								<div class="card-body">
 				
